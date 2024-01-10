@@ -1,0 +1,46 @@
+1. Exception Handling:
+
+
+=> To maintain a normal flow of program execution.
+
+How to we can do exception handling?
+
+with the help try, catch, finally, throws and throw keywords
+
+Throwable - super most class to the all exceptions classes
+
+	- Error : almost it is related your system platform, these error can not recovered.(hardware)
+	
+	- Exception : able to recover, whatever the error we are getting in java program.
+		|
+		- CloneNotSupportedException
+		- IOException
+		- SQLException
+		- RuntimeException
+				- NullPointerException
+				- ArrayIndexOutOfBoundsException
+				- ArithmeticException
+
+=> Java Exception classes again categorized into two types
+
+1. checked exceptions : these exceptions are directly comes under Exception class except RuntimeException class
+2. unchecked exceptions: these exceptions are directly comes under RuntimeException class.
+
+
+2. IOStreams and File Handling.
+
+- File
+- FileInputStream
+- FileOutputStream
+- FileReader
+- FileWriter
+- ObjectOutputStream: Serializing the java object
+- ObjectInputStream: Deserializing the java object
+- transient keyword
+
+** About marker interfaces,
+
+for example, Serializable and Cloneable
+
+
+MultiThreading: 
